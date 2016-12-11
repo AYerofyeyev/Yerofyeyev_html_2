@@ -1,0 +1,101 @@
+@font-face {
+font-family: 'MyriadPro';
+src: url('../fonts/MyriadPro/MyriadPro-Regular.otf') format('opentype');
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/MyriadPro-Bold.otf') format('opentype');
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/MyriadPro-It.otf') format('opentype');
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/MyriadPro-BoldIt.otf') format('opentype');
+  font-style: italic;
+  font-weight: bold;
+}
+body {
+background-color: #f2f5f4;
+}
+.wrapper {
+  width: 824px;
+  margin-left: 100px;
+}
+header {
+  border-bottom: 1px solid black;
+}
+.block {
+  border-bottom: 1px solid black;
+}
+.header1 {
+   text-align: center;
+   font-size: 36px;
+   font-family: Arial, sans-serif;
+   font-weight: bold;
+}
+.header2 {
+   font-family: MyriadPro, Arial, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+}
+.photo1_div{
+  height: 250px;
+  text-align: center;
+}
+.photo1 {
+  height: 200px;
+  margin-top: 25px;
+  border: 1px solid black;
+}
+.char {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 0px;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: normal;
+}
+.plain {
+  font-size: 12px;
+  font-family: MyriadPro, Arial, sans-serif;
+  margin-left: 40px;
+  font-style: normal;
+  font-weight: normal;
+}
+.list1 {
+  font-size: 12px;
+  font-family: MyriadPro, Arial, sans-serif;
+  margin-left: 0px;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: normal;
+}
+.list2 {
+  font-size: 12px;
+  font-family: MyriadPro, Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 0px;
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+.note {
+  font-size: 11px;
+  font-family: MyriadPro, Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 40px;
+}
+.line1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+}
