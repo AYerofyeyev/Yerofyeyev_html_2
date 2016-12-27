@@ -1,108 +1,107 @@
 @font-face {
-    font-family: 'MyriadPro';
-    src: url('../fonts/MyriadPro/MyriadPro-Regular.otf') format('opentype');
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro';
-    src: url('../fonts/MyriadPro/MyriadPro-Bold.otf') format('opentype');
-    font-style: normal;
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'MyriadPro';
-    src: url('../fonts/MyriadPro/MyriadPro-It.otf') format('opentype');
-    font-style: italic;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro';
-    src: url('../fonts/MyriadPro/MyriadPro-BoldIt.otf') format('opentype');
-    font-style: italic;
-    font-weight: bold;
-}
-
-body {
-    text-align: center;
-    background: #f2f5f4;
-}
-
-.container {
-    width: 604px;
-    height: 1024px;
-    border: 1px solid #000;
-    margin: 0 auto;
-    padding: 0 210px;
-    background-image: url(../img/image02.png)
-}
-
-header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-    padding: 50px 0 25px;
-    font-family: Arial, sans-serif;
-    color: #010101;
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.photo {
-    width: 200px;
-    border: 1px solid #000;
-}
-
-.job {
-  text-align: left;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  padding: 25px 0;
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/MyriadPro-Regular.otf') format('opentype');
   font-style: normal;
   font-weight: normal;
 }
 
-h2 {
-  padding: 25px 0;
-  text-align: left;
-  font-family: MyriadPro, Arial, sans-serif;
-  font-size: 20px;
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/MyriadPro-Bold.otf') format('opentype');
+  font-style: normal;
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/MyriadPro-It.otf') format('opentype');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/MyriadPro-BoldIt.otf') format('opentype');
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  background-image: url('../img/image02.png');
+  border: 1px solid;
+  height: 1024px;
+  margin: 0 auto;
+  padding: 0 210px;
+  width: 604px;
+}
+
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+h1 {
+  color: #010101;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 50px 0 25px;
+}
+
+.photo {
+  border: 1px solid;
+  width: 200px;
+}
+
+.job {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  padding: 25px 0;
+  text-align: left;
+}
+
+h2 {
+  font-family: MyriadPro, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 25px 0;
+  text-align: left;
+}
+
 ul {
-    list-style: disc;
-    padding: 0 40px 25px;
-    text-align: left;
-    font-size: 14px;
-    line-height: 18px;
-    font-family: MyriadPro, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  font-family: MyriadPro, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+  list-style: disc;
+  padding: 0 40px 25px;
+  text-align: left;
 }
 
 .regular--text {
-    text-align: left;
-    font-size: 14px;
-    font-family: MyriadPro, Arial, sans-serif;
-    padding: 0 25px;
-    font-style: normal;
-    font-weight: normal;
+  font-family: MyriadPro, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  padding: 0 25px;
+  text-align: left;
 }
 
 .social--media {
-    list-style: none;
-    padding: 0 25px 25px;
-    text-align: left;
-    font-size: 14px;
-    line-height: 18px;
-    font-family: MyriadPro, Arial, sans-serif;
-    font-style: italic;
-    font-weight: normal;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  font-family: MyriadPro, Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 18px;
+  list-style: none;
+  padding: 0 25px 25px;
+  text-align: left;
 }
